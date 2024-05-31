@@ -2,16 +2,16 @@
 .heading {
     display: flex;
     justify-content: center;
-    color: black;
+    color: #2c3e50; /* Dark blue */
     font-size: 1.5rem;
-    text-decoration: underline 2px darkblue;
+    text-decoration: underline 2px #2980b9; /* Blue underline */
     font-weight: bold;
 }
 
 .text-center {
     font-size: 1.2rem;
     margin-top: 5px;
-    text-decoration: underline 2px darkblue;
+    text-decoration: underline 2px #2980b9; /* Blue underline */
     font-weight: bold;
 }
 
@@ -26,17 +26,16 @@
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    border: 2px solid darkblue;
+    border: 2px solid #27ae60; /* Green border */
     flex-direction: column;
     width: 40%;
     margin-left: 30%;
     align-items: center;
     height: fit-content;
     border-radius: 10px;
-    background-color: offwhite;
 }
 
-/* for the reviewer container */
+/* for the reviewer, container */
 .reviewer {
     width: 90%;
 }
@@ -51,15 +50,15 @@
 
 /* Submit buttons */
 .submitButtons button {
-    background-color: #B0C4DE; /* LightSteelBlue */
+    background-color: #f1c40f; /* Yellow */
     width: 10vw;
     height: 25px;
-    border: 1px solid darkblue;
+    border: 1px solid #d4ac0d; /* Dark yellow border */
     border-radius: 20px;
 }
 
 .submitButtons button:hover {
-    background-color: lightblue;
+    background-color: #f7dc6f; /* Light yellow on hover */
 }
 
 /* This button is used in assigning admin */
@@ -68,9 +67,9 @@
 }
 
 .btn {
-    background-color: lightblue;
+    background-color: #e74c3c; /* Red */
 }
 
 #addemp {
-    background-color: lightblue;
+    background-color: #e67e22; /* Orange */
 }

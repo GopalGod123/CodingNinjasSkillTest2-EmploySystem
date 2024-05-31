@@ -2,7 +2,7 @@
     /* background-image: url(../images/signBack.jpg); */
 }
 
-/* The styling for sign-in / sign-up / forgetPassword is the same */
+/* The styling for sign-in / sign-up / forgetPassword is same */
 /* It is the main container */
 .mainContainer {
     display: flex;
@@ -12,12 +12,12 @@
     margin-left: 30vw;
     height: 50vh;
     width: 40vw;
-    border: 1px solid black;
+    border: 1px solid #2c3e50; /* Dark blue border */
 }
 
 /* The main container is divided into two parts */
 .companyLogo {
-    background-color: #1E3A8A; /* Dark blue */
+    background-color: #27ae60; /* Green */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,15 +32,16 @@
 }
 
 .formInput {
-    background-color: #E0FFFF; /* LightCyan */
+    background-color: #ecf0f1; /* White smoke */
     height: 100%;
     width: 60%;
+    /* margin-left: 10%; */
 }
 
 /* Form heading */
 .formInput h1 {
     margin-left: 30%;
-    color: black;
+    color: #2c3e50; /* Dark blue */
 }
 
 .formInput form {
@@ -56,7 +57,7 @@ form input {
     padding: 10px;
 }
 
-/* Styling for the button and submit button */
+/* Styling for the button, and submit button */
 .buttons {
     display: flex;
     flex-direction: row;
@@ -70,7 +71,7 @@ form input {
 .submitButtons button {
     width: 100%;
     border-radius: 30px;
-    background-color: #B0C4DE; /* LightSteelBlue */
+    background-color: #27ae60; /* Green */
 }
 
 .extraStuff {

@@ -1,104 +1,96 @@
+Employee Review System by Gopal Khandelwal
+Welcome to the Employee Review System, a full-stack application designed to streamline employee evaluation processes.
 
+Description
+Crafted by Gopal Khandelwal, the Employee Review System empowers administrators to assign employees for peer reviews based on their work performance. Administrators possess special privileges, including the ability to designate new administrators, create employee profiles, and assign roles such as reviewer and reviewee. The system also enables administrators to view current employees and take action, such as removing employees based on performance reviews. All reviews are securely stored in the database for future reference.
 
-# Employee-Review-System
-A full stack, app used for reviewing employee.
+Tech Stack
+This application leverages the following technologies:
 
-
-### Description
-
-This application allows an admin to manage employee reviews. The admin can assign employees to review each other based on their work. Admins have special privileges, including promoting other employees to admin status, adding new employees, assigning reviewers and reviewees, and removing employees based on their reviews. All reviews are stored in the database.
-
-
-### Tech Stack
 Node.js
-Express
+Express.js
 MongoDB
-EJS
+EJS (Embedded JavaScript)
 JavaScript
 HTML
 CSS
 Setup Instructions
-Clone the repository to your local system.
-Install npm if you don't have it already.
-Navigate to the project directory and run the following commands
+To set up the project locally, follow these steps:
 
-### How to setup the project on local system
+Clone the project repository.
+Ensure npm is installed on your system.
+Navigate to the project directory in your terminal.
+Run the following commands:
+bash
+Copy code
+npm install
+npm start
+If you prefer using nodemon:
 
-  1. Clone this project
-  2. Start by installing npm if you don't have it already.
-  3. Navigate to Project Directory.
+bash
+Copy code
+npm install -g nodemon   # Install nodemon globally if not already installed
+nodemon index.js
+To grant administrator privileges, use the secret key: happy.
 
-After reaching the project directory you have to run the following the command.
-   ```` 
-        npm install 
-        npm start || nodemon index.js
-   ````
+Features
+Key features of the Employee Review System include:
 
-#### If you want to make an employee as admin then use the secret key : happy.
-
-### Features
-
-  You can review the employees. The admin has the special power to assing, the task to employee, remove the employee, add new admin, and also employee;
-    
-  # HomePage / Admin View
-
-  # Home page / Employee view
-  
-  # Sign-Up
-
-  # Sign-In
-
-  # Forget Password
-  
-  # Assign Task
-
-  # Employee List
-  
-
-  
-
-### Folder Structure
-
-```
+Ability to review employees
+Administrator privileges to assign tasks, remove employees, designate new administrators, and add employees
+User-friendly interface for seamless navigation and interaction
+Screenshots
+Home Page / Admin View
+Home Page / Employee View
+Sign-Up
+Sign-In
+Forget Password
+Assign Task
+Employee List
+Folder Structure
+sql
+Copy code
 Employee Review System
-    ├── assets
-    │   ├── css
-    │   └── images
-    │
-    ├── config
-    │   ├── flashMiddleware.js
-    │   ├── mongoose.js
-    │   └── passport-local-Stradegy.js
-    │
-    ├── controllers
-    │   ├── admin_controller.js
-    │   ├── home_controller.js
-    │   ├── review_controller.js
-    │   └── user_controller.js
-    │
-    ├── models
-    │   ├── review.js
-    │   └── user.js
-    │
-    ├── routes
-    │   ├── admin.js
-    │   ├── index.js
-    │   ├── review.js
-    │   └── user.js
-    │
-    ├── views
-    │   ├── _header.ejs
-    │   ├── addEmployee.ejs
-    │   ├── admin.ejs
-    │   ├── employee.ejs
-    │   ├── forget_password.ejs
-    │   ├── home.ejs
-    │   ├── layout.ejs
-    │   ├── sign_in.ejs
-    │   └── sign_up.ejs
-    │
-    ├── node_modules
-    ├── .gitignore
-    ├── index.js
-    ├── package-lock.json
-    └── package.json
+    |
+    |---> assets
+    |       |---> css
+    |       |---> images
+    |
+    |---> config
+    |       |---> flashMiddleware.js
+    |       |---> mongoose.js
+    |       |---> passport-local-Stradegy.js
+    |
+    |---> controllers
+    |       |---> admin_controller.js
+    |       |---> home_controller.js
+    |       |---> review_controller.js
+    |       |---> user_controller.js
+    |
+    |---> models
+    |       |---> admin.js
+    |       |---> review.js
+    |       |---> user.js
+    |
+    |---> routes
+    |       |---> index.js
+    |       |---> review.js
+    |       |---> user.js
+    |
+    |---> views
+    |       |---> _header.ejs
+    |       |---> addEmployee.ejs
+    |       |---> admin.ejs
+    |       |---> employee.ejs
+    |       |---> forget_password.ejs
+    |       |---> home.ejs
+    |       |---> layout.ejs
+    |       |---> sign_in.ejs
+    |       |---> sign_up.ejs
+    |
+    |---> node_modules
+    |
+    |---> .gitignore
+    |---> index.js
+    |---> package-lock.json
+    |---> package.json

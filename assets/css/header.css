@@ -1,37 +1,23 @@
-/* The below CSS is for the header of the page, the header of the page is going to remain constant, only
- the body is going to change.
-  */
-
-/* Styling for navBar, I have made nav Bar as flex, and all the elements inside this navBar are going to 
-  be row-wise */
-  .navBar {
-    background-color: #1E3A8A; /* Dark blue */
+/* Styling for navBar, I have made nav Bar as flex, and all the element inside this navBar is going to in row wise */
+.navBar {
+    background-color: #2c3e50; /* Dark blue */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* These styles are for anchor tags in navBar */
+/* These styling are for anchor tag in navBar */
 .nameOfApp a {
     font-size: 45px;
     text-decoration: none;
     margin-left: -15px;
-    color: offwhite;
+    color: #f1c40f; /* Yellow */
     letter-spacing: 4px;
     font-weight: 600;
-    text-shadow: -1px 1px 0 #60A5FA, /* Light blue */
-                 1px 1px 0 #3B82F6, /* Blue */
-                 1px -1px 0 #2563EB, /* Indigo */
-                 -1px -1px 0 #1E40AF; /* Dark blue */
-    text-shadow: 0 1px 1px #bbb,
-                 0 2px 0 #999, 
-                 0 3px 0 #888, 
-                 0 4px 0 #777, 
-                 0 5px 0 #666, 
-                 0 6px 0 #555, 
-                 0 7px 0 #444, 
-                 0 8px 0 #333, 
-                 0 9px 7px #302314;
+    text-shadow: -1px 1px 0 #f39c12,
+	1px 1px 0 #c0392b,
+	1px -1px 0 #1abc9c,
+	-1px -1px 0 #e74c3c;
 }
 
 .nameOfApp img {
@@ -41,13 +27,13 @@
     margin-top: -30px;
 }
 
-/* For the name of users */
+/* for the name of users */
 .nameOfUser {
     font-size: 20px;
     margin-left: 2px;
     margin-right: 8px;
     margin-top: 8px;
-    color: offwhite;
+    color: #ecf0f1; /* White */
     font-weight: bold;
 }
 
@@ -58,12 +44,12 @@
     margin-right: 8px;
 }
 
-/* These styles are for the logOut button which is present on the navBar */
+/* Thesse styling are for logOut, button which is present on the navBar */
 .logOut a {
     font-size: 30px;
     margin-right: 10px;
     text-decoration: none;
-    color: black;
+    color: #e74c3c; /* Red */
 }
 
 .noUser ul {
@@ -82,16 +68,16 @@
 
 .noUser li a {
     text-decoration: none;
-    color: offwhite;
+    color: #ecf0f1; /* White */
 }
 
 .logOut small {
     font-size: 15px;
-    color: offwhite;
-    text-decoration: underline 1px lightblue;
+    color: #ecf0f1; /* White */
+    text-decoration: underline 1px #f1c40f; /* Yellow underline */
     padding: 5px;
 }
 
 .logOut small:hover {
-    color: lightblue;
+    color: #f1c40f; /* Yellow */
 }
