@@ -1,5 +1,6 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
+const mongoose = require('mongoose');
 
 const User = require('../models/user');
 
@@ -55,4 +56,4 @@ passport.setAuthenticatedUser = function(req, res, next){
     next();
 }
 
-module.exports = passport;
+module.exports = { passport, mongoose };
